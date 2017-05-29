@@ -11,12 +11,6 @@ public class HFBase64 {
 		if (datas == null) {
 			return null;
 		}
-		System.out.println(""+encodingTable.charAt(12));
-		System.out.println(""+encodingTable.charAt(33));
-		System.out.println(""+encodingTable.charAt(17));
-		System.out.println(""+encodingTable.charAt(46));
-		System.out.println(""+encodingTable.charAt(9));
-		System.out.println(""+encodingTable.charAt(30));
 		String ciphertext = "";
 		Integer byteIndex = 0;
 		while (byteIndex < datas.length) {
